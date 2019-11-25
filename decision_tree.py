@@ -34,7 +34,7 @@ dtc.fit(x_train, y_train)
 #Predict for x_test
 y_pred = dtc.predict(x_test)
 
-#Checking accuracy of Naive Bayes
+#Checking accuracy of Classifier
 from sklearn import metrics
 cm = metrics.confusion_matrix(y_test, y_pred) 
 print(cm)
